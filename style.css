@@ -36,6 +36,10 @@
     font-weight: 600;
     margin-top: 24px;
 }
+.boldtext:hover {
+    color: var(--Cyan, #00FFF8);
+    cursor: pointer;
+}
 .smalltext {
     width: 302px;
     color: var(--Soft-Blue, #8BACD9);
