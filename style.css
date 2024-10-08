@@ -15,7 +15,7 @@
     width: 350px;
     height: 596px;
     border-radius: 15px;
-    background: var(--very-dark-blue-card-bg, #15263F);
+    background: #15263F;
     box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
     padding: 24px;
     display: flex;
@@ -30,19 +30,19 @@
 }
 .boldtext {
     width: 302px;
-    color: var(--White, #FFF);
+    color: #FFF;
     font-family: Outfit;
     font-size: 22px;
     font-weight: 600;
     margin-top: 24px;
 }
 .boldtext:hover {
-    color: var(--Cyan, #00FFF8);
+    color: #00FFF8;
     cursor: pointer;
 }
 .smalltext {
     width: 302px;
-    color: var(--Soft-Blue, #8BACD9);
+    color: #8BACD9;
     font-family: Outfit;
     font-size: 18px;
     font-weight: 300;
@@ -65,7 +65,7 @@
     font-family: Outfit;
     font-size: 16px;
     font-weight: 600;
-    color: var(--Cyan, #00FFF8);
+    color: #00FFF8;
 }
 .right {
     display: flex;flex-wrap: nowrap;
@@ -76,12 +76,12 @@
     font-family: Outfit;
     font-size: 16px;
     font-weight: 400;
-    color: var(--Soft-Blue, #8BACD9);
+    color: #8BACD9;
 }
 .line {
     width: 302px;
     height: 1px;
-    background: var(--very-dark-blue-line, #2E405A);
+    background: #2E405A;
     margin-top: 24px;
 }
 .profile {
@@ -93,12 +93,12 @@
     width: 33px;
     height: 33px;
     border-radius: 33px;
-    border: 1px solid var(--White, #FFF);
+    border: 1px solid #FFF;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 .creator {
     height: 20px;
-    color: var(--Soft-Blue, #8BACD9);
+    color: #8BACD9;
     font-family: Outfit;
     font-size: 16px;
     font-weight: 400;
@@ -107,7 +107,7 @@
 }
 .name {
     height: 20px;
-    color: var(--White, #FFF);
+    color: #FFF;
     font-family: Outfit;
     font-size: 16px;
     font-weight: 400;
@@ -115,7 +115,7 @@
     margin-top: 6px;
 }
 .name:hover {
-    color: var(--Cyan, #00FFF8);
+    color: #00FFF8;
     cursor: pointer;
 }
 
